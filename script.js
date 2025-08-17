@@ -35,7 +35,7 @@ boxes.forEach((box) => {
 });
 const showWinner = (winner) => {
     msg.innerText = `Congratulations, Winner is ${winner}`;
-    msgContainer.classList.remove("hode");
+    msgContainer.classList.remove("hide");
 }
 const checkWinner = () =>{
     for(let pattern of winPatterns){
