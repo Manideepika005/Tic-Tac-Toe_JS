@@ -32,8 +32,15 @@ body{
     border: none;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
     font-size: 8vmin;
-    color: #b0413e;
     background-color: #ffffc7;
+}
+
+.x{
+    color: blue;
+}
+
+.o{
+    color: red;
 }
 
 #reset{
